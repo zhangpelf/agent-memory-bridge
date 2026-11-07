@@ -1,0 +1,22 @@
+{
+  "name": "agent-memory-bridge",
+  "version": "0.1.0",
+  "description": "A local-first, zero-token memory bridge connecting OpenCode, Claude Code, and Codex.",
+  "main": "src/mcp-server.js",
+  "bin": {
+    "agent-memory-mcp": "src/mcp-server.js",
+    "agent-memory-sync": "src/sync-engine.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "opencode",
+    "claude-code",
+    "codex",
+    "mcp",
+    "memory",
+    "sqlite"
+  ],
+  "author": "Agent Memory Bridge Contributors",
+  "license": "MIT"
+}
